@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './AppUser';
+import AppStatistics from './AppStatistics';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <AppStatistics />
   </React.StrictMode>,
   document.getElementById('root'),
 );

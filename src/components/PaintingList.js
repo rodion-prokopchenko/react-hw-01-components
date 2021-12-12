@@ -1,7 +1,7 @@
 import Painting from './Painting';
 import PropTypes from 'prop-types';
 
-function PaintingList({ items }) {
+export default function PaintingList({ items }) {
   return (
     <ul>
       {items.map(item => (
@@ -27,5 +27,3 @@ PaintingList.propTypes = {
     }),
   ),
 };
-
-export default PaintingList;

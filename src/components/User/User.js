@@ -1,6 +1,6 @@
 import propTypes from 'prop-types';
 
-const User = ({ id, username, tag, location, avatar, stats }) => {
+const User = ({ username, tag, location, avatar, stats }) => {
   return (
     <>
       <div className="description">
