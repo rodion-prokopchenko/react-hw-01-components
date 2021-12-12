@@ -1,15 +1,14 @@
-import PaintingList from './components/PaintingList';
-import Section from './components/Section';
-import paintings from './paintings.json';
+// import PaintingList from './components/PaintingList';
+// import Section from './components/Section';
+// import paintings from './paintings.json';
+
+import UserList from './components/UserList/UserList';
+import user from './components/User.json';
 
 export default function App() {
   return (
     <div>
-      <Section title="Топ недели">
-        <PaintingList items={paintings} />
-      </Section>
-
-      <Section title="Лучшее"></Section>
+      <UserList user={user} />
     </div>
   );
 }
