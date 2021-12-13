@@ -1,11 +1,12 @@
 import propTypes from 'prop-types';
+import s from './Transactions.module.css';
 
 const Transaction = ({ type, amount, currency }) => {
   return (
     <>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+      <td className={s.transactionHistoryTbodyElements}>{type}</td>
+      <td className={s.transactionHistoryTbodyElements}>{amount}</td>
+      <td className={s.transactionHistoryTbodyElements}>{currency}</td>
     </>
   );
 };

@@ -1,9 +1,10 @@
 import propTypes from 'prop-types';
+import s from './User.module.css';
 
 const User = ({ username, tag, location, avatar, stats }) => {
   return (
     <>
-      <div className="description">
+      <div className={s.description}>
         <img src={avatar} alt="User avatar" className="avatar" />
         <p className="name">{username}</p>
         <p className="tag">{tag}</p>

@@ -1,0 +1,9 @@
+.transactionHistory {
+  width: 100%;
+
+  border: 1px solid black;
+}
+
+.transactionHistoryTheadElements {
+  border: 1px solid black;
+}

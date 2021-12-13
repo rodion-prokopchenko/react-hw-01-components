@@ -1,16 +1,17 @@
 import propTypes from 'prop-types';
+import s from './TransactionTable.module.css';
 
 export default function TransactionTable({ children }) {
   return (
-    <table className="transaction-history">
+    <table className={s.transactionHistory}>
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={s.transactionHistoryTheadElements}>Type</th>
+          <th className={s.transactionHistoryTheadElements}>Amount</th>
+          <th className={s.transactionHistoryTheadElements}>Currency</th>
         </tr>
       </thead>
-      <tbody>{children}</tbody>
+      <tbody className={s.transactionHistory}>{children}</tbody>
     </table>
   );
 }

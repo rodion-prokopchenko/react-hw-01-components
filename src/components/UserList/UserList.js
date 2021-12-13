@@ -1,8 +1,9 @@
 import User from '../User/User';
+import s from './UserList.module.css';
 
 function UserList({ user }) {
   return (
-    <div className="profile">
+    <div className={s.profile}>
       <User
         username={user.username}
         tag={user.tag}
@@ -10,7 +11,6 @@ function UserList({ user }) {
         avatar={user.avatar}
         stats={user.stats}
       />
-      )
     </div>
   );
 }
