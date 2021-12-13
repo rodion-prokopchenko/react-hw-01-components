@@ -5,7 +5,7 @@ import s from './FriendsList.module.css';
 export default function FriendsList({ friends }) {
   return (
     <>
-      <ul class={s.friendList}>
+      <ul className={s.friendList}>
         {friends.map(friends => (
           <li className={s.item} key={friends.id}>
             <Friends
