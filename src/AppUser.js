@@ -3,7 +3,7 @@
 // import paintings from './paintings.json';
 
 import UserList from './components/UserList/UserList';
-import user from './components/User.json';
+import user from './User.json';
 
 export default function App() {
   return (
